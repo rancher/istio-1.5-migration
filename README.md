@@ -1,6 +1,6 @@
 # istio-1.5-migration
 
-Allows for helm upgrade migration from Istio 1.4 to Istio 1.5.
+Allows helm to upgrade Istio from 1.4 to 1.5
 
 Several resources that were created by Istio components in <= 1.4.x were then added to the 1.5 manifests which causes a helm error. This removes them so they can be added by the new 1.5 helm charts.
 
